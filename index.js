@@ -3,11 +3,11 @@ import bodyParser from "body-parser";
 import pg from "pg";
 
 const db = new pg.Client({
-  user: "postgres",
-  host: "localhost",
-  database: "world",
-  password: "laxmi4778",
-  port: 5432,
+  user: ****,
+  host: ****,
+  database: ****,
+  password: ****,
+  port: ****,
 })
 db.connect();
 let quiz = [];
